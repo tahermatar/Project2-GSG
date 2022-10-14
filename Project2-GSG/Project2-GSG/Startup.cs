@@ -43,6 +43,7 @@ namespace Project2_GSG
             services.AddDbContext<project2_gsgContext>();
 
             services.AddScoped<IUserManager, UserManager>();
+            services.AddScoped<ITodoManager, TodoManager>();
             services.AddScoped<IRoleManager, RoleManager>();
 
             services.AddSingleton(sp => _mapperConfiguration.CreateMapper());

@@ -64,3 +64,5 @@ E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG\obj\Debug\net5
 E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG\obj\Debug\net5.0\Project2-GSG.pdb
 E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG\obj\Debug\net5.0\Project2-GSG.genruntimeconfig.cache
 E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG\obj\Debug\net5.0\ref\Project2-GSG.dll
+E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG\bin\Debug\net5.0\Autofac.dll
+E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG\obj\Debug\net5.0\Project2-GSG.MvcApplicationPartsAssemblyInfo.cs
