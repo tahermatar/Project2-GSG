@@ -11,7 +11,7 @@ using Tazeez.Common.Extensions;
 
 namespace Project2_GSG.Attributes
 {
-    public class CProject2_GSGAuthrizeAttribute : Attribute, IAuthorizationFilter
+    public class Project2_GSGAuthrizeAttribute : Attribute, IAuthorizationFilter
     {
         public void OnAuthorization(AuthorizationFilterContext context)
         {
