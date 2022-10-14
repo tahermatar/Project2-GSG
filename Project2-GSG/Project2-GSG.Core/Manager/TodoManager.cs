@@ -41,10 +41,10 @@ namespace Project2_GSG.Core.Manager
             return res;
         }
 
-        public TodoResponse AddItem(TodoCreate createItem, TodoCreate id)
+        public TodoResponse AddItem(TodoCreate createItem)
         {
             var item = _project2_gsgContext.Todos
-                                           .FirstOrDefault(a => a.Id == id.UserId)
+                                           .FirstOrDefault(a => a.Id == createItem.UserId)
                                            ?? throw new ServiceValidationException("User not found");
 
             var Item = _project2_gsgContext.Add(new Todo

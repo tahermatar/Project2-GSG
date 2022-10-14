@@ -49,9 +49,9 @@ namespace Project2_GSG.Controllers
         [Route("api/todo/AddItem")]
         [Project2_GSGAuthrize]
         [HttpPost]
-        public IActionResult AddItem([FromBody] TodoCreate id, TodoCreate createItem)
+        public IActionResult AddItem([FromBody] TodoCreate createItem)
         {
-            var item = _todoManager.AddItem(createItem, id);
+            var item = _todoManager.AddItem(createItem);
             return Ok(item);
         }
 
