@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Project2_GSG.ModelViews</RootNamespace>
+  </PropertyGroup>
+
+</Project>

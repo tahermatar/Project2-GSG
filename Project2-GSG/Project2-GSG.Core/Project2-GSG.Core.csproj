@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Project2_GSG.Core</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<PackageReference Include="AutoMapper" Version="12.0.0" />
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.23.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.23.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Project2-GSG.Common\Project2-GSG.Common.csproj" />
+    <ProjectReference Include="..\Project2-GSG.DbModels\Project2-GSG.DbModels.csproj" />
+    <ProjectReference Include="..\Project2-GSG.ModelViews\Project2-GSG.ModelViews.csproj" />
+  </ItemGroup>
+
+</Project>

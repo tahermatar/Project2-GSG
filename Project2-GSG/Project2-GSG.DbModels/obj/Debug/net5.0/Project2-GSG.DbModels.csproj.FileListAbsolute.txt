@@ -1,0 +1,15 @@
+E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.DbModels\bin\Debug\net5.0\Project2-GSG.DbModels.deps.json
+E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.DbModels\bin\Debug\net5.0\Project2-GSG.DbModels.runtimeconfig.json
+E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.DbModels\bin\Debug\net5.0\Project2-GSG.DbModels.runtimeconfig.dev.json
+E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.DbModels\bin\Debug\net5.0\Project2-GSG.DbModels.dll
+E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.DbModels\bin\Debug\net5.0\Project2-GSG.DbModels.pdb
+E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.DbModels\obj\Debug\net5.0\Project2-GSG.DbModels.csproj.AssemblyReference.cache
+E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.DbModels\obj\Debug\net5.0\Project2-GSG.DbModels.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.DbModels\obj\Debug\net5.0\Project2-GSG.DbModels.AssemblyInfoInputs.cache
+E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.DbModels\obj\Debug\net5.0\Project2-GSG.DbModels.AssemblyInfo.cs
+E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.DbModels\obj\Debug\net5.0\Project2-GSG.DbModels.csproj.CoreCompileInputs.cache
+E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.DbModels\obj\Debug\net5.0\Project2-GSG.DbModels.dll
+E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.DbModels\obj\Debug\net5.0\refint\Project2-GSG.DbModels.dll
+E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.DbModels\obj\Debug\net5.0\Project2-GSG.DbModels.pdb
+E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.DbModels\obj\Debug\net5.0\Project2-GSG.DbModels.genruntimeconfig.cache
+E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.DbModels\obj\Debug\net5.0\ref\Project2-GSG.DbModels.dll
