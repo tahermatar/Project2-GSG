@@ -5,4 +5,8 @@
     <RootNamespace>Project2_GSG.ModelViews</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Project2-GSG.DbModels\Project2-GSG.DbModels.csproj" />
+  </ItemGroup>
+
 </Project>

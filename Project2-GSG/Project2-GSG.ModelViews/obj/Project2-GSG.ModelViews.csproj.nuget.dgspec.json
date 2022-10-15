@@ -4,6 +4,78 @@
     "E:\\ASP.net GSG\\Part_2 Projects\\Project2\\Project2-GSG\\Project2-GSG.ModelViews\\Project2-GSG.ModelViews.csproj": {}
   },
   "projects": {
+    "E:\\ASP.net GSG\\Part_2 Projects\\Project2\\Project2-GSG\\Project2-GSG.DbModels\\Project2-GSG.DbModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ASP.net GSG\\Part_2 Projects\\Project2\\Project2-GSG\\Project2-GSG.DbModels\\Project2-GSG.DbModels.csproj",
+        "projectName": "Project2-GSG.DbModels",
+        "projectPath": "E:\\ASP.net GSG\\Part_2 Projects\\Project2\\Project2-GSG\\Project2-GSG.DbModels\\Project2-GSG.DbModels.csproj",
+        "packagesPath": "C:\\Users\\Almajd-PC\\.nuget\\packages\\",
+        "outputPath": "E:\\ASP.net GSG\\Part_2 Projects\\Project2\\Project2-GSG\\Project2-GSG.DbModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Almajd-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "E:\\ASP.net GSG\\Part_2 Projects\\Project2\\Project2-GSG\\Project2-GSG.ModelViews\\Project2-GSG.ModelViews.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +99,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\ASP.net GSG\\Part_2 Projects\\Project2\\Project2-GSG\\Project2-GSG.DbModels\\Project2-GSG.DbModels.csproj": {
+                "projectPath": "E:\\ASP.net GSG\\Part_2 Projects\\Project2\\Project2-GSG\\Project2-GSG.DbModels\\Project2-GSG.DbModels.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -45,6 +45,8 @@ namespace Project2_GSG
             services.AddScoped<IUserManager, UserManager>();
             services.AddScoped<ITodoManager, TodoManager>();
             services.AddScoped<IRoleManager, RoleManager>();
+            services.AddScoped<ICommonManager, CommonManager>();
+            services.AddScoped<ICommonTodoManager, CommonTodoManager>();
 
             services.AddSingleton(sp => _mapperConfiguration.CreateMapper());
             services.AddLogging();

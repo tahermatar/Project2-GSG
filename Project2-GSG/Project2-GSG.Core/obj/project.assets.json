@@ -663,6 +663,9 @@
       "Project2-GSG.ModelViews/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Project2-GSG.DbModels": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Project2-GSG.ModelViews.dll": {}
         },

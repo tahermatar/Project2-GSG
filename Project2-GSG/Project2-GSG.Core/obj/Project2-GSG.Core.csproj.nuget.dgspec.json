@@ -245,7 +245,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\ASP.net GSG\\Part_2 Projects\\Project2\\Project2-GSG\\Project2-GSG.DbModels\\Project2-GSG.DbModels.csproj": {
+                "projectPath": "E:\\ASP.net GSG\\Part_2 Projects\\Project2\\Project2-GSG\\Project2-GSG.DbModels\\Project2-GSG.DbModels.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

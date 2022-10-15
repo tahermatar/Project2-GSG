@@ -12,5 +12,6 @@ namespace Project2_GSG.ModelViews.ModelView
         public string ImageString { get; set; }
         public string Content { get; set; }
         public bool IsRead { get; set; }
+        //public string Token { get; set; }
     }
 }

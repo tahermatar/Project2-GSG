@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Primitives;
+using Project2_GSG.Core.Manager.Interface;
 using Project2_GSG.ModelViews;
 using Project2_GSG.ModelViews.ModelView;
 using System.Linq;
@@ -37,6 +38,10 @@ namespace Project2_GSG.Controllers
                     throw new ServiceValidationException(401, "Invalid or expired token");
                 }
 
+                var commonManager = HttpContext.RequestServices.GetService(typeof(ICommonManager)) as ICommonManager;
+
+                _loggedInUser = commonManager.GetUserRole(new UserModel { Id = id });
+
                 return _loggedInUser;
             }
         }
@@ -64,6 +69,10 @@ namespace Project2_GSG.Controllers
                 {
                     throw new ServiceValidationException(401, "Invalid or expired token");
                 }
+
+                var commonTodoManager = HttpContext.RequestServices.GetService(typeof(ICommonTodoManager)) as ICommonTodoManager;
+
+                _loggedInTodo = commonTodoManager.GetTodoRole(new TodoResponse { Id = id });
 
                 return _loggedInTodo;
             }

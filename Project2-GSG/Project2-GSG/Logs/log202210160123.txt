@@ -1,0 +1,53 @@
+2022-10-16 01:23:57.792 +03:00 [FTL] LogLeveL : Fatal
+Log Date: 15/10/2022 10:23:57 م +00:00
+UserId: 0
+User Email: 
+Request Path: /api/Todo/api/todo/updateItem
+Application Name: Project2_GSG
+Message: An exception was thrown while attempting to evaluate a LINQ query parameter expression. See the inner exception for more information. To show additional information call 'DbContextOptionsBuilder.EnableSensitiveDataLogging'.
+StackTrace:   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Evaluate(Expression expression, Boolean generateParameter)
+at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+at System.Linq.Expressions.ExpressionVisitor.VisitBinary(BinaryExpression node)
+at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.VisitBinary(BinaryExpression binaryExpression)
+at System.Linq.Expressions.BinaryExpression.Accept(ExpressionVisitor visitor)
+at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+at System.Linq.Expressions.ExpressionVisitor.VisitLambda[T](Expression`1 node)
+at System.Linq.Expressions.Expression`1.Accept(ExpressionVisitor visitor)
+at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+at System.Linq.Expressions.ExpressionVisitor.VisitUnary(UnaryExpression node)
+at System.Linq.Expressions.UnaryExpression.Accept(ExpressionVisitor visitor)
+at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+at System.Dynamic.Utils.ExpressionVisitorUtils.VisitArguments(ExpressionVisitor visitor, IArgumentProvider nodes)
+at System.Linq.Expressions.ExpressionVisitor.VisitMethodCall(MethodCallExpression node)
+at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.ExtractParameters(Expression expression)
+at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExtractParameters(Expression query, IParameterValues parameterValues, IDiagnosticsLogger`1 logger, Boolean parameterize, Boolean generateContextAccessors)
+at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+at Project2_GSG.Core.Manager.TodoManager.UpdateItem(TodoResponse currentItem, TodoResponse request) in E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.Core\Manager\TodoManager.cs:line 68
+at Project2_GSG.Controllers.TodoController.UpdateItem(TodoResponse request) in E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG\Controllers\TodoController.cs:line 66
+at lambda_method2(Closure , Object , Object[] )
+at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)Object reference not set to an instance of an object.
+StackTrace:   at lambda_method8(Closure )
+at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+

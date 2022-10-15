@@ -29,6 +29,8 @@ namespace Project2_GSG.Core.Manager
 
             var Item = _project2_gsgContext.Add(new Todo
             {
+                UserId= createItem.UserId,
+                CreatorId = createItem.CreatorId,
                 Title = createItem.Title,
                 Content = createItem.Content,
                 Image = string.Empty
@@ -73,7 +75,6 @@ namespace Project2_GSG.Core.Manager
             {
                 url = Helper.Helper.SaveImage(request.ImageString, "ProfileImages");
             }
-
 
             item.Title= request.Title;
             item.Content = request.Content;

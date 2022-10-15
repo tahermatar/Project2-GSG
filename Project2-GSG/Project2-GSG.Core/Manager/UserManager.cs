@@ -2,7 +2,6 @@
 using Microsoft.IdentityModel.Tokens;
 using Project2_GSG.Core.Manager.Interface;
 using Project2_GSG.Models;
-using Project2_GSG.ModelView;
 using Project2_GSG.ModelViews;
 using Project2_GSG.ModelViews.ModelView;
 using System;

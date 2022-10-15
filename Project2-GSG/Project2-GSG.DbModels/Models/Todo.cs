@@ -2,8 +2,6 @@
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations.Schema;
 
-#nullable disable
-
 namespace Project2_GSG.Models
 {
     public partial class Todo
@@ -16,6 +14,7 @@ namespace Project2_GSG.Models
         public string Content { get; set; }
         public bool IsRead { get; set; }
         public int UserId { get; set; }
+        public int CreatorId { get; set; }
 
         //[Timestamp]
         [DatabaseGenerated(DatabaseGeneratedOption.Computed)]

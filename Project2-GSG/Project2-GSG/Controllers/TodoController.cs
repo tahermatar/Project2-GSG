@@ -3,15 +3,14 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Project2_GSG.Attributes;
 using Project2_GSG.Core.Manager.Interface;
+using Project2_GSG.ModelViews;
 using Project2_GSG.ModelViews.ModelView;
 using System.IO;
-
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace Project2_GSG.Controllers
 {
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class TodoController : ApiBaseController
     {
         private ITodoManager _todoManager;
@@ -23,21 +22,26 @@ namespace Project2_GSG.Controllers
             _logger = logger;
         }
 
-        // GET: api/<TodoController>
         [HttpGet]
         public IActionResult Get()
         {
             return Ok();
         }
 
-        // GET api/<TodoController>/5
         [HttpGet("{id}")]
         public string Get(int id)
         {
             return "value";
         }
+        [Route("api/user/login")]
+        [HttpPost]
+        [AllowAnonymous]
+        //public IActionResult login([FromBody] LoginModel userLogin)
+        //{
+        //    var user = _todoManager.Login(userLogin);
+        //    return Ok(user);
+        //}
 
-        // POST api/<TodoController>
         [Route("api/todo/createItem")]
         [HttpPost]
         public IActionResult CreateItem([FromBody] TodoCreate createItem)
@@ -55,7 +59,6 @@ namespace Project2_GSG.Controllers
             return Ok(item);
         }
 
-        // PUT api/<TodoController>/5
         [Route("api/todo/updateItem")]
         [HttpPut]
         public IActionResult UpdateItem(TodoResponse request)
@@ -75,7 +78,6 @@ namespace Project2_GSG.Controllers
             return File(byteArray, "image/jpeg", fileName);
         }
 
-        // DELETE api/<TodoController>/5
         [Route("api/todo/{id}")]
         [HttpDelete]
         public IActionResult Delete(int id)

@@ -20,21 +20,18 @@ namespace Project2_GSG.Controllers
             _logger = logger;
         }
 
-        // GET: api/<UserController>
         [HttpGet]
         public IActionResult Get()
         {
             return Ok();
         }
 
-        // GET api/<UserController>/5
         [HttpGet("{id}")]
         public string Get(int id)
         {
             return "value";
         }
 
-        // POST api/<UserController>
         [Route("api/user/signUp")]
         [HttpPost]
         [AllowAnonymous]
@@ -53,17 +50,15 @@ namespace Project2_GSG.Controllers
             return Ok(user);
         }
 
-        // PUT api/<UserController>/5
         [Route("api/user/updateMyProfile")]
         [HttpPut]
         public IActionResult UpdateMyProfile(UserModel request)
         {
-            var user = _userManager.UpdateProfile(LoggedInUser, request);
+            var user = _userManager.UpdateProfile(request, LoggedInUser);
 
             return Ok(user);
         }
 
-        // DELETE api/<UserController>/5
         [Route("api/user/{id}")]
         [HttpDelete]
         public IActionResult Delete(int id)

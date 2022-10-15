@@ -1,11 +1,14 @@
 E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.ModelViews\bin\Debug\net5.0\Project2-GSG.ModelViews.deps.json
 E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.ModelViews\bin\Debug\net5.0\Project2-GSG.ModelViews.dll
 E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.ModelViews\bin\Debug\net5.0\Project2-GSG.ModelViews.pdb
+E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.ModelViews\bin\Debug\net5.0\Project2-GSG.DbModels.dll
+E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.ModelViews\bin\Debug\net5.0\Project2-GSG.DbModels.pdb
 E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.ModelViews\obj\Debug\net5.0\Project2-GSG.ModelViews.csproj.AssemblyReference.cache
 E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.ModelViews\obj\Debug\net5.0\Project2-GSG.ModelViews.GeneratedMSBuildEditorConfig.editorconfig
 E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.ModelViews\obj\Debug\net5.0\Project2-GSG.ModelViews.AssemblyInfoInputs.cache
 E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.ModelViews\obj\Debug\net5.0\Project2-GSG.ModelViews.AssemblyInfo.cs
 E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.ModelViews\obj\Debug\net5.0\Project2-GSG.ModelViews.csproj.CoreCompileInputs.cache
+E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.ModelViews\obj\Debug\net5.0\Project2-GSG.ModelViews.csproj.CopyComplete
 E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.ModelViews\obj\Debug\net5.0\Project2-GSG.ModelViews.dll
 E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.ModelViews\obj\Debug\net5.0\refint\Project2-GSG.ModelViews.dll
 E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.ModelViews\obj\Debug\net5.0\Project2-GSG.ModelViews.pdb

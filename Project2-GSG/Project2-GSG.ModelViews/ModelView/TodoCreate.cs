@@ -13,5 +13,6 @@ namespace Project2_GSG.ModelViews.ModelView
         public string Content { get; set; }
         public bool IsRead { get; set; }
         public int UserId { get; set; }
+        public int CreatorId { get; set; }
     }
 }

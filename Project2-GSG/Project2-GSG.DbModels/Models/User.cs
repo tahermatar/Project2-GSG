@@ -1,18 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-
-#nullable disable
 
 namespace Project2_GSG.Models
 {
     public partial class User
     {
-        //public User()
-        //{
-        //    Todos = new HashSet<Todo>();
-        //}
+        public User()
+        {
+            Todos = new HashSet<Todo>();
+        }
 
         public int Id { get; set; }
         public string FirstName { get; set; }

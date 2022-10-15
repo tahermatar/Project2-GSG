@@ -1,0 +1,18 @@
+2022-10-15 22:41:27.512 +03:00 [INF] Object reference not set to an instance of an object.
+2022-10-15 22:41:32.441 +03:00 [INF] LogLeveL : Information
+Log Date: 15/10/2022 7:41:31 م +00:00
+UserId: 0
+User Email: 
+Request Path: /api/Todo/api/todo/AddItem
+Application Name: Project2_GSG
+Message: An Error occurred please contact system administrator
+StackTrace:   at Project2_GSG.Attributes.Project2_GSGAuthrizeAttribute.OnAuthorization(AuthorizationFilterContext context) in E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG\Attributes\Project2_GSGAuthrizeAttribute.cs:line 53
+at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+

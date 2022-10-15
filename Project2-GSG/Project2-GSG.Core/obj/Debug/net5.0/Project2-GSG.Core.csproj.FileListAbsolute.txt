@@ -1,8 +1,3 @@
-E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.Core\obj\Debug\net5.0\Project2-GSG.Core.csproj.AssemblyReference.cache
-E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.Core\obj\Debug\net5.0\Project2-GSG.Core.GeneratedMSBuildEditorConfig.editorconfig
-E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.Core\obj\Debug\net5.0\Project2-GSG.Core.AssemblyInfoInputs.cache
-E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.Core\obj\Debug\net5.0\Project2-GSG.Core.AssemblyInfo.cs
-E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.Core\obj\Debug\net5.0\Project2-GSG.Core.csproj.CoreCompileInputs.cache
 E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.Core\bin\Debug\net5.0\Project2-GSG.Core.deps.json
 E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.Core\bin\Debug\net5.0\Project2-GSG.Core.dll
 E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.Core\bin\Debug\net5.0\Project2-GSG.Core.pdb
@@ -12,6 +7,11 @@ E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.Core\bin\Debug
 E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.Core\bin\Debug\net5.0\Project2-GSG.Common.pdb
 E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.Core\bin\Debug\net5.0\Project2-GSG.DbModels.pdb
 E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.Core\bin\Debug\net5.0\Project2-GSG.ModelViews.pdb
+E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.Core\obj\Debug\net5.0\Project2-GSG.Core.csproj.AssemblyReference.cache
+E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.Core\obj\Debug\net5.0\Project2-GSG.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.Core\obj\Debug\net5.0\Project2-GSG.Core.AssemblyInfoInputs.cache
+E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.Core\obj\Debug\net5.0\Project2-GSG.Core.AssemblyInfo.cs
+E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.Core\obj\Debug\net5.0\Project2-GSG.Core.csproj.CoreCompileInputs.cache
 E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.Core\obj\Debug\net5.0\Project2-GSG.Core.csproj.CopyComplete
 E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.Core\obj\Debug\net5.0\Project2-GSG.Core.dll
 E:\ASP.net GSG\Part_2 Projects\Project2\Project2-GSG\Project2-GSG.Core\obj\Debug\net5.0\refint\Project2-GSG.Core.dll
